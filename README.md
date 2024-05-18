@@ -45,7 +45,7 @@ Crie um arquivo .env na raiz do projeto e adicione a seguinte variável necessá
 Para iniciar a API localmente, execute:
 
 ```bash
-node server.js
+nodemon server.js
 ```
 
 A API estará disponível em http://localhost:3000.
