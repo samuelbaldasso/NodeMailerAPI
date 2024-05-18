@@ -1,11 +1,11 @@
-# NodeMailer Email API
+# Backend de Email - NodeJS
 
-Este projeto é uma API construída usando Node.js e Express, que integra o serviço de envio de e-mails via lib NodeMailer para facilitar o envio de e-mails programáticos a partir de aplicações. O projeto segue as melhores práticas de desenvolvimento para garantir a funcionalidade e robustez da API.
+Este projeto é uma aplicação construída usando Node.js e Express, que integra o serviço de envio de e-mails via lib NodeMailer para facilitar o envio de e-mails programáticos a partir de outras aplicações. O projeto segue as melhores práticas de desenvolvimento para garantir a funcionalidade e robustez da mesma.
 
 ## Recursos
 
 - **Integração com NodeMailer**: Utilize a poderosa biblioteca NodeJS para enviar e-mails de forma confiável.
-- **Fácil de Integrar**: API projetada para ser simples de integrar com qualquer front-end ou sistema que necessite de serviços de e-mail.
+- **Fácil de Integrar**: Aplicação projetada para ser simples de integrar com qualquer front-end ou sistema que necessite de serviços de e-mail.
 
 ## Tecnologias Utilizadas
 
@@ -34,9 +34,11 @@ npm install
 
 Crie um arquivo .env na raiz do projeto e adicione a seguinte variável necessária para a configuração do NodeMailer:
 
-SMTP_USER=seu_usuario_do_gmail_aqui
-SMTP_PASS=sua_senha_do_gmail_aqui
-EMAIL_RECIPIENT=email_destinatario
+`SMTP_USER=seu_usuario_do_gmail_aqui`
+
+`SMTP_PASS=sua_senha_do_gmail_aqui`
+
+`EMAIL_RECIPIENT=email_destinatario`
 
 ## Execução
 
