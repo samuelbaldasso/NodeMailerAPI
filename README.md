@@ -25,8 +25,8 @@ Antes de iniciar, certifique-se de que tem instalado:
 Para começar, clone o repositório e instale as dependências.
 
 ```bash
-git clone https://github.com/samuelbaldasso/NodeMailer_Email_API-JavaScript-NodeJS-Express-CORS-Security.git
-cd NodeMailer_Email_API-JavaScript-NodeJS-Express-CORS-Security
+git clone https://github.com/samuelbaldasso/NodeMailerAPI.git
+cd NodeMailerAPI
 npm install
 ```
 
